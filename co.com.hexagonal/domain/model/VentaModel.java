@@ -1,3 +1,5 @@
+package co.com.hexagonal.domain.model;
+
 public class VentaModel {
     private int nv;
     private String cliente;

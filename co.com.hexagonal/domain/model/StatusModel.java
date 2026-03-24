@@ -1,3 +1,5 @@
+package co.com.hexagonal.domain.model;
+
 public class StatusModel {
     private int cods;
     private String dstatus;

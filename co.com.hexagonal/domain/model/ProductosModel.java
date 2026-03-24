@@ -1,3 +1,5 @@
+package co.com.hexagonal.domain.model;
+
 public class ProductosModel {
     private int codprod;
     private String nomprod;

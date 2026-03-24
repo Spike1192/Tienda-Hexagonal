@@ -1,3 +1,5 @@
+package co.com.hexagonal.domain.spi;
+
 import java.util.List;
 import co.com.hexagonal.domain.model.StatusModel;
 import co.com.hexagonal.domain.model.LoginModel;

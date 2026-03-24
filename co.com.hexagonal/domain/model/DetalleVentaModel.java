@@ -1,3 +1,5 @@
+package co.com.hexagonal.domain.model;
+
 public class DetalleVentaModel {
     private int id;
     private String producto;

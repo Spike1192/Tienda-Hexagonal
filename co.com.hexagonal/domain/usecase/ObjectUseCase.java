@@ -1,4 +1,15 @@
+package co.com.hexagonal.domain.usecase;
+
 import java.util.List;
+import co.com.hexagonal.domain.api.IObjectServicePort;
+import co.com.hexagonal.domain.exception.DomainValidationException;
+import co.com.hexagonal.domain.model.DetalleVentaModel;
+import co.com.hexagonal.domain.model.LoginModel;
+import co.com.hexagonal.domain.model.ProductosModel;
+import co.com.hexagonal.domain.model.StatusModel;
+import co.com.hexagonal.domain.model.VentaModel;
+import co.com.hexagonal.domain.spi.IObjectPersistencePort;
+import org.springframework.stereotype.Service;
 
 public class ObjectUseCase implements IObjectServicePort {
 

@@ -1,3 +1,5 @@
+package co.com.hexagonal.domain.model;
+
 public class LoginModel {
     private int id;
     private String nombre;
