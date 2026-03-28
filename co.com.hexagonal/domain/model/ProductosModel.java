@@ -7,6 +7,16 @@ public class ProductosModel {
     private double precio;
     private int fkcods;
 
+    public ProductosModel() {
+    }
+
+    public ProductosModel(String nomprod, int cantprod, double precio, int fkcods) {
+        this.nomprod = nomprod;
+        this.cantprod = cantprod;
+        this.precio = precio;
+        this.fkcods = fkcods;
+    }
+
     public ProductosModel(int codprod, String nomprod, int cantprod, double precio, int fkcods) {
         this.codprod = codprod;
         this.nomprod = nomprod;

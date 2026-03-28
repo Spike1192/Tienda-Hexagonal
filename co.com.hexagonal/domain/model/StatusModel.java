@@ -4,6 +4,13 @@ public class StatusModel {
     private int cods;
     private String dstatus;
 
+    public StatusModel() {
+    }
+
+    public StatusModel(String dstatus) {
+        this.dstatus = dstatus;
+    }
+
     public StatusModel(int cods, String dstatus) {
         this.cods = cods;
         this.dstatus = dstatus;

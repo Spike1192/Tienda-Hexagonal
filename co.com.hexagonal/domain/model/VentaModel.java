@@ -6,6 +6,15 @@ public class VentaModel {
     private double total;
     private int fkcods;
 
+    public VentaModel() {
+    }
+
+    public VentaModel(String cliente, double total, int fkcods) {
+        this.cliente = cliente;
+        this.total = total;
+        this.fkcods = fkcods;
+    }
+
     public VentaModel(int nv, String cliente, double total, int fkcods) {
         this.nv = nv;
         this.cliente = cliente;

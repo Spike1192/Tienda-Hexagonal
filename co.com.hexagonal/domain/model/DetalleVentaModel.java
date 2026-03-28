@@ -8,6 +8,19 @@ public class DetalleVentaModel {
     private int fknv;
     private int fkcods;
 
+    
+    public DetalleVentaModel() {
+    }
+
+    
+    public DetalleVentaModel(String producto, int cantidad, double precio, int fknv, int fkcods) {
+        this.producto = producto;
+        this.cantidad = cantidad;
+        this.precio = precio;
+        this.fknv = fknv;
+        this.fkcods = fkcods;
+    }
+
     public DetalleVentaModel(int id, String producto, int cantidad, double precio, int fknv, int fkcods) {
         this.id = id;
         this.producto = producto;

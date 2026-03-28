@@ -7,6 +7,16 @@ public class LoginModel {
     private String clave;
     private int fkcods;
 
+    public LoginModel() {
+    }
+
+    public LoginModel(String nombre, String usuario, String clave, int fkcods) {
+        this.nombre = nombre;
+        this.usuario = usuario;
+        this.clave = clave;
+        this.fkcods = fkcods;
+    }
+
     public LoginModel(int id, String nombre, String usuario, String clave, int fkcods) {
         this.id = id;
         this.nombre = nombre;
