@@ -73,7 +73,7 @@ gradlew bootRun
 ## Ejecutar pruebas
 
 ```bash
-/gradlew test
+gradlew test
 ```
 
 ---
